@@ -3,6 +3,7 @@ from Wav2Lip import inference
 from gtts import gTTS
 import argparse
 from pydub import AudioSegment
+import json
 
 #preprocessing
 import os
@@ -33,7 +34,7 @@ def main(sentence):
      
      inference.main(args)
 
-  return words
+  return json.dumps(words)
 
 
 
