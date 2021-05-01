@@ -34,4 +34,4 @@ def main(sentence):
      
      inference.main(args)
 
-  return json.dumps(words)
+  return json.dumps(str(words))

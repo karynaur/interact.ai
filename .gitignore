@@ -1,3 +1,5 @@
 Wav2Lip/checkpoints/wav2lip_gan.pth
 Wav2Lip/face_detection/detection/sfd/s3fd.pth
 __pycache__
+videos/*
+audio/*
