@@ -77,7 +77,7 @@ def cued_speech(text):
   output = {}
   output['lenth'] = len(syllable[0])
   output['word'] = {}
-  print(len(syllable[0]))
+  
   for word in syllable: 
     for i in range(len(word)):
 
