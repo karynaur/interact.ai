@@ -75,7 +75,6 @@ def cued_speech(text):
 
   syllable = get_pronounce(text)
   output = {}
-  output['lenth'] = len(syllable[0])
   output['word'] = {}
   
   for word in syllable: 
