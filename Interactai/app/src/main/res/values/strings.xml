@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Interact.ai</string>
+    <string name="url">https://cdn.discordapp.com/attachments/793681221639995443/837038976804192276/result_voice_7.mp4</string>
+    <string name="listen">Listen</string>
+    <string name="speak">Speak</string>
+</resources>
