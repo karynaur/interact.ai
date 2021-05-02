@@ -1,7 +1,7 @@
 # interact.ai
 
 <img align="center" src = 'interact.jpg' height="277" width="415">
-<br>
+
 "Society has the tendency to focus on disability rather than ability" said **Rachel Kolb** in her [Ted talk](https://www.youtube.com/watch?v=uKKpjvPd6Xo&t=220s) <br> and we are here to fix that. Ever wondered how difficult, tiring and time consuming it is for a Sign language interpreter? We provide a solution that automates this task.
 
 ## Why Cued Speech?
