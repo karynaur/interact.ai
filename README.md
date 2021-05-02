@@ -7,7 +7,8 @@
 and we are here to fix that. Ever wondered how difficult, tiring and time consuming it is for a Sign language interpreter? We provide a solution that automates this task.
 
 Transformer text to phenome model can be found [here](https://github.com/karynaur/interact.ai/blob/main/models/CMU_minGPT.ipynb)<br>
-Text to cued python script [here](https://github.com/karynaur/interact.ai/blob/main/text_to_cued.py)
+Text to cued python script [here](https://github.com/karynaur/interact.ai/blob/main/text_to_cued.py)<br>
+Apk for the app can be found [here](https://github.com/karynaur/interact.ai/blob/main/interactai.apk)
 
 ## Why Cued Speech?
 
