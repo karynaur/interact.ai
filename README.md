@@ -29,9 +29,9 @@ Although the library was doing a pretty good job, when given a word outside of t
 ## Workflow
 
 1. Input speech is interpreted as text and sent to python script running on GCP.
-2. A python library takes this text and gives the corresponding Cued Speech position(Using CMU Dictionary).
+2. A python library takes this text and gives the corresponding Cued Speech position (Using CMU Dictionary).
 3. If the word from the sentence is not in the dictionary, a model trained on the dictionary is asked to predict the pronunciation for this new word.
-3. Text in the form of audio (using gTTS python library) along with a face of a human that does not exist is sent to a deep learning model([Wav2Lip](https://github.com/Rudrabha/Wav2Lip)) that animates the lip sync.
+3. Text in the form of audio (using gTTS python library) along with a face of a human that does not exist is sent to a deep learning model ([Wav2Lip](https://github.com/Rudrabha/Wav2Lip)) that animates the lip sync.
 4. Video and the corresponding positions are sent to a script that animates the hand positions into the video.
 5. The app plays the video.
 
