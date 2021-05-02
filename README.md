@@ -1,8 +1,13 @@
 # interact.ai
+<p align="center">
+<img align="center" src = 'interact.jpg' height="277" width="415"/>
+</p>
 
-<img align="center" src = 'interact.jpg' height="277" width="415">
+"Society has the tendency to focus on disability rather than ability" said **Rachel Kolb** in her [Ted talk](https://www.youtube.com/watch?v=uKKpjvPd6Xo&t=220s) 
+and we are here to fix that. Ever wondered how difficult, tiring and time consuming it is for a Sign language interpreter? We provide a solution that automates this task.
 
-"Society has the tendency to focus on disability rather than ability" said **Rachel Kolb** in her [Ted talk](https://www.youtube.com/watch?v=uKKpjvPd6Xo&t=220s) <br> and we are here to fix that. Ever wondered how difficult, tiring and time consuming it is for a Sign language interpreter? We provide a solution that automates this task.
+Transformer text to phenome modelcan be found [here](https://github.com/karynaur/interact.ai/blob/main/models/CMU_minGPT.ipynb)<br>
+Text to cued python script [here](https://github.com/karynaur/interact.ai/blob/main/text_to_cued.py)
 
 ## Why Cued Speech?
 
@@ -28,3 +33,8 @@ Although the library was doing a pretty good job, when given a word outside of t
 3. Text in the form of audio (using gTTS python library) along with a face of a human that does not exist is sent to a deep learning model([Wav2Lip](https://github.com/Rudrabha/Wav2Lip)) that animates the lip sync.
 4. Video and the corresponding positions are sent to a script that animates the hand positions into the video.
 5. The app plays the video.
+
+## Acknowledgements
+1. [minGPT](https://github.com/karpathy/minGPT) by karpathy
+2. [Wav2Lip](https://github.com/Rudrabha/Wav2Lip) lipsync model
+3. Cate Calder into to [cued speech](https://www.youtube.com/watch?v=yNLtlZHmb6s) 
