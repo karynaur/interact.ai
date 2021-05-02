@@ -8,5 +8,5 @@ def hello(name):
     x = name.replace("+", " ")
     obj = json.loads(main(x))
     return obj
-app.run(host="192.168.0.106", port="5000")
+app.run(host="34.123.94.67", port="5000")
 
