@@ -14,7 +14,7 @@ def main(sentence):
   files.extend(glob.glob('videos/*'))
   if files is not None:
      for i in files:
-        os.remove(i)
+https://www.youtube.com/watch?v=yNLtlZHmb6s        os.remove(i)
 
 
   words = []

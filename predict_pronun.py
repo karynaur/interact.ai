@@ -30,7 +30,9 @@ def predict(word):
   mconf = GPTConfig(tok_tar.vocab_size, block_size,
                     n_layer=2, n_head=4, n_embd=512)
   model = GPT(mconf)
-  model.load_state_dict(torch.load('models/model.pt', map_location = torch.device('cpu')))
+  model.load_state_dict(torch.load('models/model (1).pt', map_location = torch.device('cpu')))
+#  model = torch.load('models/pronunciation.pt', map_location = torch.device('cpu'))
+  model.eval()
   x = torch.tensor(tok_data.encode(tok_data.tokenize(word, block_size)), dtype=torch.long)[None,...]
   y = sample(model, x, block_size, temperature=1.0, sample=True, top_k=10)[0]
 
